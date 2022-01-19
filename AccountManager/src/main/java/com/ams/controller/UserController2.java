@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.ams.dto.UserDTO;
-import com.ams.service.UserService;
+import com.ams.service.UserService2;
 
 @Controller
-public class UserController {
+public class UserController2 {
 
 	@Autowired
-	UserService service;
+	UserService2 service;
 	
 	@RequestMapping("/")
 	public ModelAndView SelectAllFromUser() {
